@@ -1,0 +1,3 @@
+Bundle-Category: sling,jcr,jackrabbit
+Provide-Capability: osgi.service;objectClass:List<String>="javax.jcr.Repository,org.apache.sling.jcr.api.SlingRepository"
+Import-Package:  org.apache.jackrabbit.rmi.*;resolution:=optional, *
